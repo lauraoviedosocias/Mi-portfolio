@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;1,615&display=swap');
+body {
+    height: 100%;
+    margin: 0;
+    background-color: grey;
+}
+
+/* HEADER */
+header {
+    background-color: lightcoral;
+    height: 60px;
+    /* display: flex;
+    align-items: center; */
+}
+
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.menu li {
+    margin: 15px;
+
+}
+/* SECCION PRESENTACION */
+.seccion-presentacion {
+    background-color: lightgreen;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.texto {
+    height: 250px;
+    width: 400px;
+    display: block;
+}
+.bio-1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 40px;
+    margin: 2px;
+}
+.name {
+    font-family: 'EB Garamond', serif;
+    font-size: 70px;
+    margin: 2px;
+}
+.bio-2 {
+    font-family: 'EB Garamond', serif;
+    font-size: 20px;
+    margin: 2px;
+}
+.boton-github {
+    background-color: lightslategray;
+    border: 2.5px solid grey;
+    border-radius: 20px;
+    color: black;
+    font-family: "EB Garamond";
+    font-size: 20px;
+    padding: 20px;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.imagen {
+    height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img-presentacion {
+    width: 100%;
+    height: auto;
+}
+
+.seccion-conocimientos {
+    background-color: limegreen;
+    height: 100vh;
+    display:flex;
+}
+
+.seccion-cita {
+    background-color: lightsalmon;
+    height: 100vh;
+    display:flex;
+}
+
+.seccion-proyectos {
+    background-color: lightgoldenrodyellow;
+    height: 100vh;
+    display:flex;
+}
+
+/* SECCION CONOCIMIENTOS */
+
+.seccion-conocimientos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    text-align: center;
+}
+.descripcion-conocimientos {
+    font-family: "EB Garamond";
+    font-size: 20px;
+    max-width: 800px;
+}
+.contenedor-tarjetas {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 900px;
+    height: 500px;
+}
+
+.tarjeta {
+    background-color: white ;
+    height: 180px;
+    width: 180px;
+    border: 1px solid rgb(224, 221, 221);
+    border-radius: 10px;
+    padding: 30px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-tarjeta {
+    width: 100px;
+    height: auto;
+}
+
+.titulo-tarjeta {
+    font-family: "EB Garamond";
+    font-size: 20px;
+    margin: 10px;
+}
+
+/* SECCION CITA */
+
+.seccion-cita {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* SECCION PROYECTOS */
+
+.seccion-proyectos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    text-align: center;
+}
+.descripcion-conocimientos {
+    font-family: "EB Garamond";
+    font-size: 20px;
+    max-width: 800px;
+}
+.contenedor-tarjetas {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 900px;
+    height: 500px;
+}
+
+.tarjeta {
+    background-color: white ;
+    height: 180px;
+    width: 180px;
+    border: 1px solid rgb(224, 221, 221);
+    border-radius: 10px;
+    padding: 30px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-tarjeta {
+    width: 100px;
+    height: auto;
+}
+
+.titulo-tarjeta {
+    font-family: "EB Garamond";
+    font-size: 20px;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+footer {
+    background-color: red;
+    height: 100px;
+    display: flex;
+}
