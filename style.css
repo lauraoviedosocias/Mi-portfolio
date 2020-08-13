@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;1,615&display=swap');
+
+
+html{
+    margin: 0;
+}
 body {
     height: 100%;
     margin: 0;
-    background-color: grey;
 }
 
 /* HEADER */
 header {
-    background-color: lightcoral;
+    background-color: #9099A2;
     height: 60px;
     /* display: flex;
     align-items: center; */
@@ -16,20 +20,29 @@ header {
 .menu {
     display: flex;
     justify-content: flex-end;
-    margin-right: 20px;
+    /* margin-right: 20px; */
+    margin-top: 0;
 }
 
 .menu li {
     margin: 15px;
 
 }
+
+.hamburguesa {
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+
 /* SECCION PRESENTACION */
 .seccion-presentacion {
-    background-color: lightgreen;
-    height: 100vh;
+    background-color: #D5D5D5;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
 .contenedor-texto {
     display: flex;
@@ -80,33 +93,17 @@ header {
     height: auto;
 }
 
-.seccion-conocimientos {
-    background-color: limegreen;
-    height: 100vh;
-    display:flex;
-}
-
-.seccion-cita {
-    background-color: lightsalmon;
-    height: 100vh;
-    display:flex;
-}
-
-.seccion-proyectos {
-    background-color: lightgoldenrodyellow;
-    height: 100vh;
-    display:flex;
-}
-
 /* SECCION CONOCIMIENTOS */
 
-.seccion-conocimientos{
+.seccion-conocimientos {
+    background-color: #96858F;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 900px;
     text-align: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
 .descripcion-conocimientos {
     font-family: "EB Garamond";
@@ -114,7 +111,7 @@ header {
     max-width: 800px;
 }
 .contenedor-tarjetas {
-    background-color: white;
+    background-color: #96858F;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -123,7 +120,7 @@ header {
 }
 
 .tarjeta {
-    background-color: white ;
+    background-color: #FCFCFC;
     height: 180px;
     width: 180px;
     border: 1px solid rgb(224, 221, 221);
@@ -150,38 +147,43 @@ header {
 /* SECCION CITA */
 
 .seccion-cita {
+    background-color: #D5D5D5;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 /* SECCION PROYECTOS */
 
 .seccion-proyectos{
+    background-color: #96858F;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 900px;
     text-align: center;
+    padding-top: 90px;
+    padding-bottom: 90px;
+
 }
 .descripcion-conocimientos {
     font-family: "EB Garamond";
     font-size: 20px;
     max-width: 800px;
 }
-.contenedor-tarjetas {
-    background-color: white;
+.contenedor-proyectos {
+    background-color: #96858F;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    max-width: 900px;
-    height: 500px;
+    max-width: 757px;
+    height: 800px;
 }
 
 .tarjeta {
-    background-color: white ;
+    background-color: #FCFCFC;
     height: 180px;
     width: 180px;
     border: 1px solid rgb(224, 221, 221);
@@ -205,19 +207,58 @@ header {
     margin: 10px;
 }
 
+.menu-proyectos{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
 
-
-
-
-
-
-
-
+.menu-proyectos li{
+    margin: 15px;
+}
 
 
 /* FOOTER */
 footer {
-    background-color: red;
-    height: 100px;
+    background-color: #9099A2;
+    height: 400px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.menu-footer, .menu-redes{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.menu-footer li, .menu-redes li{
+    margin: 15px;
+}
+
+@media(max-width:600px) {
+    nav {
+        display:none;
+    }
+    .hamburguesa {
+        display: flex;
+        
+    }
+    .contenedor-imagen {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+
+}
+
+@media(max-width:900px) {
+    .seccion-presentacion {
+        flex-wrap: wrap;
+    }
+    
 }

@@ -6,64 +6,76 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
 </head>
 
 <body>
 
 <header>
+    <div class=contenedor-imagen>
+        <img class="hamburguesa" src="img/bars-solid.svg"></div>
     <nav>
         <ul class="menu">
-            <li><a class="hola" href="hola.html">Hola</a></li>
-            <li><a class="conocimientos" href="conocimientos.html">Conocimientos</a></li>
-            <li><a class="proyectos" href="proyectos.html">Proyectos</a></li>
+            <li><a class="hola" href="#hola">Hola</a></li>
+            <li><a class="conocimientos" href="#conocimientos">Conocimientos</a></li>
+            <li><a class="proyectos" href="#proyectos">Proyectos</a></li>
             <li><button class="contacto">Contacto</button></li>
         </ul>
     </nav>
 </header>
 <!-- SECCION PRESENTACION -->
 <section class="seccion-presentacion">
-    <div class="contenedor-texto">  
+    <div class="contenedor-texto">
         <div class="texto">
-            <h2 class="bio-1">¡Hola!, soy</h2>
+            <h2 class="bio-1" id="hola">¡Hola!, soy</h2>
             <h1 class="name">Laura Oviedo.</h1>
             <p class="bio-2">Casi traductora, futura desarrolladora frontend y cinéfila.</p>
             <button class="boton-github">Mi Github</button>
         </div>
-    </div>      
-    <div class="imagen"><img class="img-presentacion" src="img/img-presentacion.svg"/></div>
+    </div>
+    <div class="imagen"><img class="img-presentacion" src="img/img-presentacion.svg" /></div>
     </div>
 </section>
 <!-- SECCION CONOCIMIENTOS -->
 <section class="seccion-conocimientos">
 
-    <h2 class="nombre-seccion">Mis conocimientos</h2>
-    <p class="descripcion-conocimientos">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere alias consequatur libero nulla unde tempora modi recusandae cum blanditiis commodi provident, dolorem, numquam aperiam veniam iure quaerat, praesentium repellat? Obcaecati.</p>
+    <h2 class="nombre-seccion" id="conocimientos">Mis conocimientos</h2>
+    <p class="descripcion-conocimientos">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere alias
+        consequatur libero nulla unde tempora modi recusandae cum blanditiis commodi provident, dolorem, numquam aperiam
+        veniam iure quaerat, praesentium repellat? Obcaecati.</p>
 
     <div class="contenedor-tarjetas">
         <div class="tarjeta">
-            <img class="img-tarjeta" src="img/1.svg"/>
-            <h4 class="titulo-tarjeta">HTML 5</h4></div>
-            
+            <img class="img-tarjeta" src="img/1.svg" />
+            <h4 class="titulo-tarjeta">HTML 5</h4>
+        </div>
+
         <div class="tarjeta">
-            <img class="img-tarjeta" src="img/2.svg"/>
-            <h4 class="titulo-tarjeta">CSS 3</h4></div>
-            
+            <img class="img-tarjeta" src="img/2.svg" />
+            <h4 class="titulo-tarjeta">CSS 3</h4>
+        </div>
+
         <div class="tarjeta">
-            <img class="img-tarjeta" src="img/3.svg"/>
-            <h4 class="titulo-tarjeta">Sass</h4></div>
-            
+            <img class="img-tarjeta" src="img/3.svg" />
+            <h4 class="titulo-tarjeta">Sass</h4>
+        </div>
+
         <div class="tarjeta">
-            <img class="img-tarjeta" src="img/4.svg"/>
-            <h4 class="titulo-tarjeta">JavaScript</h4></div>
-            
+            <img class="img-tarjeta" src="img/4.svg" />
+            <h4 class="titulo-tarjeta">JavaScript</h4>
+        </div>
+
         <div class="tarjeta">
-            <img class="img-tarjeta" src="img/5.svg"/>
-            <h4 class="titulo-tarjeta">React</h4></div>
-            
+            <img class="img-tarjeta" src="img/5.svg" />
+            <h4 class="titulo-tarjeta">React</h4>
+        </div>
+
         <div class="tarjeta">
-            <img class="img-tarjeta" src="img/6.svg"/>
-            <h4 class="titulo-tarjeta">GIT</h4></div>
-    
+            <img class="img-tarjeta" src="img/6.svg" />
+            <h4 class="titulo-tarjeta">GIT</h4>
+        </div>
+
     </div>
 
 </section>
@@ -71,54 +83,80 @@
 
 <section class="seccion-cita">
 
-    <div class="img-comillas"><img src="img/img-quote.png"/></div>
-<p class="cita">Las mejores ideas vienen como chistes. Haz tus pensamientos tan divertidos como puedas.</p>
-<h2 class="autor">David Ogilvy</h2>
+    <div class="img-comillas"><img src="img/img-quote.png" /></div>
+    <p class="cita">Las mejores ideas vienen como chistes. Haz tus pensamientos tan divertidos como puedas.</p>
+    <h2 class="autor">David Ogilvy</h2>
 </section>
 
 <!-- SECCION PROYECTOS -->
 <section class="seccion-proyectos">
 
-    <h2 class="nombre-seccion">Mis proyectos</h2>
+    <h2 class="nombre-seccion" id="proyectos">Mis proyectos</h2>
     <nav>
         <ul class="menu-proyectos">
-            <li><a class="hola" href="hola.html">Hola</a></li>
-            <li><a class="conocimientos" href="conocimientos.html">Conocimientos</a></li>
-            <li><a class="proyectos" href="proyectos.html">Proyectos</a></li>
-            <li><button class="contacto">Contacto</button></li>
+            <li><button class="todos" href="todos">Todos</button></li>
+            <li><a class="html-css" href="html-css">HTML/CSS</a></li>
+            <li><a class="javascript" href="javascript">Javascript</a></li>
+            <li><a class="proyectos" href="react">React</a></li>
         </ul>
     </nav>
 
-    <div class="contenedor-tarjetas">
-        
+    <div class="contenedor-proyectos">
+
         <div class="tarjeta">
-            <img class="img-tarjeta" src="img/1.svg"/>
-            <h4 class="titulo-tarjeta">HTML 5</h4></div>
-            
+            <img class="img-tarjeta" src="img/portfolio.svg" />
+            <h4 class="titulo-tarjeta">Portfolio</h4>
+        </div>
+
         <div class="tarjeta">
-            <img class="img-tarjeta" src="img/2.svg"/>
-            <h4 class="titulo-tarjeta">CSS 3</h4></div>
-            
+            <img class="img-tarjeta" src="img/tienda.svg" />
+            <h4 class="titulo-tarjeta">Tienda</h4>
+        </div>
+
         <div class="tarjeta">
-            <img class="img-tarjeta" src="img/3.svg"/>
-            <h4 class="titulo-tarjeta">Sass</h4></div>
-            
+            <img class="img-tarjeta" src="img/juego.svg" />
+            <h4 class="titulo-tarjeta">Juego de la memoria</h4>
+        </div>
+
         <div class="tarjeta">
-            <img class="img-tarjeta" src="img/4.svg"/>
-            <h4 class="titulo-tarjeta">JavaScript</h4></div>
-            
+            <img class="img-tarjeta" src="img/gastos.svg" />
+            <h4 class="titulo-tarjeta">Controlador de gastos</h4>
+        </div>
+
         <div class="tarjeta">
-            <img class="img-tarjeta" src="img/5.svg"/>
-            <h4 class="titulo-tarjeta">React</h4></div>
-            
+            <img class="img-tarjeta" src="img/reuniones.svg" />
+            <h4 class="titulo-tarjeta">Administrador de Reuniones</h4>
+        </div>
+
         <div class="tarjeta">
-            <img class="img-tarjeta" src="img/6.svg"/>
-            <h4 class="titulo-tarjeta">GIT</h4></div>
-    
+            <img class="img-tarjeta" src="img/lista.svg" />
+            <h4 class="titulo-tarjeta">Todo App</h4>
+        </div>
+
+        <div class="tarjeta">
+            <img class="img-tarjeta" src="img/peliculas.svg" />
+            <h4 class="titulo-tarjeta">Buscador de películas</h4>
+        </div>
     </div>
 </section>
 <!-- FOOTER -->
-<footer>Hola, soy el footer</footer>
+<footer>
+    <nav>
+        <ul class="menu-footer">
+            <li><a class="hola" href="#hola">Hola</a></li>
+            <li><a class="conocimientos" href="#conocimientos">Conocimientos</a></li>
+            <li><a class="proyectos" href="#proyectos">Proyectos</a></li>
+            <li><a class="contacto" href="contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <ul class="menu-redes">
+        <li><i class="fab fa-twitter"></i></li>
+        <li><i class="fab fa-linkedin-in"></i></li>
+        <li><i class="fab fa-linkedin-in"></i></li>
+        <li><i class="fas fa-envelope-open"></i></li>
+    </ul>
+    <h3>Hecho en <i class="em em-flag-ar" aria-role="presentation" aria-label="Argentina Flag"></i></h3>
+</footer>
 </body>
 
 </html>
