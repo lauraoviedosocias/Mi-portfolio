@@ -130,11 +130,11 @@ ul {
     padding-top: 90px;
     padding-bottom: 90px;
 }
-/* .descripcion-conocimientos {
-    font-family: "EB Garamond";
-    font-size: 20px;
+.descripcion-conocimientos {
+    font-size: 25px;
     max-width: 800px;
-} */
+    padding-bottom: 40px;
+}
 .contenedor-tarjetas {
     background-color: #F4F6F6;
     display: flex;
@@ -206,11 +206,7 @@ ul {
     padding-bottom: 90px;
 
 }
-.descripcion-conocimientos {
-    font-family: "EB Garamond";
-    font-size: 20px;
-    max-width: 800px;
-}
+
 .contenedor-proyectos {
     background-color: #F4F6F6;
     display: flex;
@@ -308,7 +304,10 @@ footer {
         padding-right: 20px;
         padding-top: 20px;
     }
-
+    .body {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
 }
 
 @media(max-width:900px) {
