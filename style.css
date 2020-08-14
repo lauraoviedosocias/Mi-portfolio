@@ -11,11 +11,12 @@ body {
 
 /* HEADER */
 header {
-    background-color: #9099A2;
+    background-color: #F8F9F9;
     height: 60px;
-    /* display: flex;
-    align-items: center; */
+    box-shadow: 0 0 29px 0 rgba(134, 134, 134, 0.25;
 }
+    
+
 
 .menu {
     display: flex;
@@ -37,7 +38,7 @@ header {
 
 /* SECCION PRESENTACION */
 .seccion-presentacion {
-    background-color: #D5D5D5;
+    background-color: #F8F9F9;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -260,5 +261,3 @@ footer {
     .seccion-presentacion {
         flex-wrap: wrap;
     }
-    
-}
