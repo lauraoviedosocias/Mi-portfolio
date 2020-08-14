@@ -8,22 +8,25 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+    <link rel="icon" type="image/ico" href="favicon.ico">
 </head>
 
 <body>
+<!-- HEADER -->
 
 <header>
     <div class=contenedor-imagen>
         <img class="hamburguesa" src="img/bars-solid.svg"></div>
     <nav>
         <ul class="menu">
-            <li><a class="hola" href="#hola">Hola</a></li>
-            <li><a class="conocimientos" href="#conocimientos">Conocimientos</a></li>
-            <li><a class="proyectos" href="#proyectos">Proyectos</a></li>
-            <li><button class="contacto">Contacto</button></li>
+            <li><a class="hola" href="#hola">HOLA</a></li>
+            <li><a class="conocimientos" href="#conocimientos">CONOCIMIENTOS</a></li>
+            <li><a class="proyectos" href="#proyectos">PROYECTOS</a></li>
+            <li><a class="contacto" href="#footer">CONTACTO</a></li>
         </ul>
     </nav>
 </header>
+
 <!-- SECCION PRESENTACION -->
 <section class="seccion-presentacion">
     <div class="contenedor-texto">
@@ -31,19 +34,17 @@
             <h2 class="bio-1" id="hola">¡Hola!, soy</h2>
             <h1 class="name">Laura Oviedo.</h1>
             <p class="bio-2">Casi traductora, futura desarrolladora frontend y cinéfila.</p>
-            <button class="boton-github">Mi Github</button>
+            <button class="boton-github"><a href="https://github.com/lauraoviedosocias" target="_blank">Mi Github</a></button>
         </div>
     </div>
     <div class="imagen"><img class="img-presentacion" src="img/img-presentacion.svg" /></div>
     </div>
 </section>
+
 <!-- SECCION CONOCIMIENTOS -->
 <section class="seccion-conocimientos">
-<div class="contenedor-conocimientos">
+
     <h2 class="nombre-seccion" id="conocimientos">Mis conocimientos</h2>
-    <p class="descripcion-conocimientos">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere alias
-        consequatur libero nulla unde tempora modi recusandae cum blanditiis commodi provident, dolorem, numquam aperiam
-        veniam iure quaerat, praesentium repellat? Obcaecati.</p>
 
     <div class="contenedor-tarjetas">
         <div class="tarjeta">
@@ -76,12 +77,10 @@
             <h4 class="titulo-tarjeta">GIT</h4>
         </div>
     </div>
-</div>
 </section>
+
 <!-- SECCION CITA -->
-
 <section class="seccion-cita">
-
     <div class="img-comillas"><img src="img/img-quote.png" /></div>
     <p class="cita">Las mejores ideas vienen como chistes. Haz tus pensamientos tan divertidos como puedas.</p>
     <h2 class="autor">David Ogilvy</h2>
@@ -89,14 +88,13 @@
 
 <!-- SECCION PROYECTOS -->
 <section class="seccion-proyectos">
-
     <h2 class="nombre-seccion" id="proyectos">Mis proyectos</h2>
     <nav>
         <ul class="menu-proyectos">
-            <li><button class="todos" href="todos">Todos</button></li>
-            <li><a class="html-css" href="html-css">HTML/CSS</a></li>
-            <li><a class="javascript" href="javascript">Javascript</a></li>
-            <li><a class="proyectos" href="react">React</a></li>
+            <li><button class="todos" href="todos">TODOS</button></li>
+            <li><button class="html-css" href="html-css">HTML/CSS</a></li>
+            <li><button class="javascript" href="javascript">Javascript</a></li>
+            <li><button class="react" href="react">React</a></li>
         </ul>
     </nav>
 
@@ -138,21 +136,22 @@
         </div>
     </div>
 </section>
+
 <!-- FOOTER -->
-<footer>
+<footer id="footer">
     <nav>
         <ul class="menu-footer">
-            <li><a class="hola" href="#hola">Hola</a></li>
-            <li><a class="conocimientos" href="#conocimientos">Conocimientos</a></li>
-            <li><a class="proyectos" href="#proyectos">Proyectos</a></li>
-            <li><a class="contacto" href="contacto">Contacto</a></li>
+            <li><a class="hola" href="#hola">HOLA</a></li>
+            <li><a class="conocimientos" href="#conocimientos">CONOCIMIENTOS</a></li>
+            <li><a class="proyectos" href="#proyectos">PROYECTOS</a></li>
+            <li><a class="contacto-footer" href="#footer">CONTACTO</a></li>
         </ul>
     </nav>
     <ul class="menu-redes">
-        <li><i class="fab fa-twitter"></i></li>
-        <li><i class="fab fa-linkedin-in"></i></li>
-        <li><i class="fab fa-linkedin-in"></i></li>
-        <li><i class="fas fa-envelope-open"></i></li>
+        <li><a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/oviedosociaslaura".com" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+        <li><a href="https://github.com/lauraoviedosocias" target="_blank"><i class="fab fa-github-alt"></i></a></li>
+        <li><a href="https://gmail.com" target="_blank"><i class="fas fa-envelope-open"></i></a></li>
     </ul>
     <h3>Hecho en <i class="em em-flag-ar" aria-role="presentation" aria-label="Argentina Flag"></i></h3>
 </footer>
