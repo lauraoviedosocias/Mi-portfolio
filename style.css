@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;1,615&display=swap');
 
-
+/* no es necesario darle margin 0 a html */
 html{
     margin: 0;
 }
@@ -46,6 +46,8 @@ header {
     padding: 5px;
 }
 
+/* Como este es un estilo general, se le aplica a todos los a de tu pagina, deberia ir arriba, 
+no en este seccion. Mismo el de ul  */
 a:link, a:visited, a:active {
     text-decoration:none;
     color: #424949;
@@ -100,6 +102,7 @@ ul {
     font-size: 20px;
     padding: 15px;
     margin-top: 15px;
+    /* no es necesario text align center, el texto se alinea por defecto al centro en los botones */
     text-align: center;
 }
 
@@ -109,6 +112,7 @@ ul {
 .imagen {
     height: 400px;
     width: 400px;
+    /* no es necesario flex aqui */
     display: flex;
     justify-content: flex-end;
 }
@@ -124,6 +128,7 @@ ul {
     background-color: #F4F6F6;
     display: flex;
     flex-direction: column;
+    /* no es necesario justify content aqui */
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -179,6 +184,7 @@ ul {
     background-color: #D5D5D5;
     display: flex;
     flex-direction: column;
+    /* no es necesario justify content aqui */
     justify-content: center;
     align-items: center;
     padding-top: 70px;
@@ -268,11 +274,14 @@ ul {
 /* FOOTER */
 footer {
     background-color: #9099A2;
+    /* es preferible darle un margin o padding top al footer para que se ponga del tamaño que queres, 
+    ya que si agregas algun texto a este footer, esta medida hara que rebalse y se vea mal */
     height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* no es necesario text align aca  */
     text-align: center;
 
 }
@@ -290,6 +299,8 @@ footer {
 }
 
 /* DISEÑO RESPONSIVE */
+
+/* lo breve de esta media query revela lo bueno de tu maquetado general. felicitaciones! */
 @media(max-width:600px) {
     nav {
         display:none;

@@ -19,6 +19,8 @@
         <img class="hamburguesa" src="img/bars-solid.svg"></div>
     <nav>
         <ul class="menu">
+            <!-- No es necesario darle una clase diferente a todos estos elementos - 
+            hola, conocimientos y proyectos son iguales! deberian tener la misma clase -->
             <li><a class="hola" href="#hola">HOLA</a></li>
             <li><a class="conocimientos" href="#conocimientos">CONOCIMIENTOS</a></li>
             <li><a class="proyectos" href="#proyectos">PROYECTOS</a></li>
@@ -34,6 +36,7 @@
             <h2 class="bio-1" id="hola">¡Hola!, soy</h2>
             <h1 class="name">Laura Oviedo.</h1>
             <p class="bio-2">Casi traductora, futura desarrolladora frontend y cinéfila.</p>
+            
             <button class="boton-github"><a href="https://github.com/lauraoviedosocias" target="_blank">Mi Github</a></button>
         </div>
     </div>
@@ -45,10 +48,12 @@
 <section class="seccion-conocimientos">
 
     <h2 class="nombre-seccion" id="conocimientos">Mis conocimientos</h2>
+    <!-- Esto deberia ser un parrafo <p>, no un div.  -->
     <div class="descripcion-conocimientos">Estos son las tecnologías que sé utilizar.</div>
     <div class="contenedor-tarjetas">
         <div class="tarjeta">
             <img class="img-tarjeta" src="img/html5.svg" />
+            <!-- No deberia haber un h4 sin que antes haya un h3: la jerarquia de los titulos es importante -->
             <h4 class="titulo-tarjeta">HTML 5</h4>
         </div>
 
@@ -83,6 +88,8 @@
 <section class="seccion-cita">
     <div class="img-comillas"><img src="img/img-quote.png" /></div>
     <p class="cita">Las mejores ideas vienen como chistes. Haz tus pensamientos tan divertidos como puedas.</p>
+    <!-- tiene este h2 la misma importancia que "Mis conocimientos", por ejemplo? Yo creo que no:
+    deberia tener una jerarquia menor. h3 por ejemplo. -->
     <h2 class="autor">David Ogilvy</h2>
 </section>
 
@@ -141,6 +148,7 @@
 <footer id="footer">
     <nav>
         <ul class="menu-footer">
+            <!-- No es necesario que cada elemento tenga una clase diferente! -->
             <li><a class="hola" href="#hola">HOLA</a></li>
             <li><a class="conocimientos" href="#conocimientos">CONOCIMIENTOS</a></li>
             <li><a class="proyectos" href="#proyectos">PROYECTOS</a></li>
